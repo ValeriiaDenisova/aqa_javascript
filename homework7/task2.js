@@ -1,4 +1,8 @@
-const initialArray = [1, 2, 3, 4, 5];
+function recurs (num) {
+    console.log(num)
+    if (num > 0) {
+        recurs(num - 1)
+    }
+}
 
-const newArray = initialArray.map((value, index) => value * index);
-console.log(newArray);
+recurs(5)

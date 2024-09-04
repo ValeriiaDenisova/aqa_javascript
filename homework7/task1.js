@@ -1,19 +1,19 @@
-const numbers = [2, -5, 0, 7, -3, 0, 10, -8]
-let positiveCount = 0;
-let negativeCount = 0;
-let zeroCount = 0;
+function handleEven() {
+    console.log("number is even")
+}
+function handleOdd() {
+    console.log("number is odd")
 
-for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > 0) {
-        positiveCount++;
-    } else if (numbers[i] < 0) {
-        negativeCount++;
-    }
-    if (numbers[i] === 0) {
-        zeroCount++;
+}
+
+function handleNum(num, evenCallback, oddCallback) {
+    if (num % 2 === 0) {
+        evenCallback();
+    } else {
+        oddCallback();
     }
 }
 
-console.log("Кількість позитивних чисел: " + positiveCount)
-console.log("Кількість негативних чисел: " + negativeCount)
-console.log("Кількість нульових чисел: " + zeroCount)
+
+handleNum(7, handleEven, handleOdd);
+handleNum(10, handleEven, handleOdd);
