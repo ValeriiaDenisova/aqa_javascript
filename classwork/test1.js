@@ -1,11 +1,11 @@
 //console.log("hello")
-const A = "Valeriia"
-const B = 'Hello 2'
-const C = `Hello ${A}`
+// const A = "Valeriia"
+// const B = 'Hello 2'
+// const C = `Hello ${A}`
 //console.log(C)
 
-const val1 = 42
-const val2 = 42.42
+// const val1 = 42
+// const val2 = 42.42
 //console.log(1/0)
 
 //console.log("number"/2)

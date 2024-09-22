@@ -30,6 +30,8 @@ function square(x) {
     return x * x
 }
 
+square(2)
+
 // function sumSquare(a, b) {
 //     return square(a) + square(b)
 // }
@@ -41,10 +43,10 @@ function square(x) {
 // }
 // console.log(mul(3, 5))
 
-(function () {
-    console.log("Anonymous function");
-})();
-
-const functionName = (a) => {
-    
-}
+// (function () {
+//     console.log("Anonymous function");
+// })();
+//
+// const functionName = (a) => {
+//
+// }
