@@ -4,3 +4,4 @@ function greet (greeting, production) {
 const person = { name : "Anna"}
 const person2 = {name : "Misha"}
 greet.call(person, "Hello", "!")
+greet.call(person2, "Hello", "!")

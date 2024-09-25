@@ -4,7 +4,7 @@ let users = [
     {name : "Петя", email: "petia@example.com", age: 40},
 ]
 
-for (user of users) {
+for (let user of users) {
     let {name, email, age} = user
     console.log(name, email, age)
 }
